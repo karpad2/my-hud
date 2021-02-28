@@ -88,8 +88,8 @@
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/playermovement"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/playerinventory"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/playerdamage"/>
-        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/states/playermaskoff"/>
-        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/states/playerstandard"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/states/playermaskoff"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/states/playerstandard"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/timergui"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/digitalgui"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/drill"/>
@@ -116,10 +116,53 @@
         <hook file="utilities/TabStats.lua" source_file="lib/managers/crimespreemanager"/>
         <hook file="utilities/TabStats.lua" source_file="lib/managers/hudmanagerpd2"/>
         <hook file="utilities/TabStats.lua" source_file="lib/managers/statisticsmanager"/>
-        <hook file="utilities/TabStats.lua" source_file="lib/hud/newhudstatsscreen"/>
-        <hook file="utilities/TabStats.lua" source_file="lib/menu/stageendscreengui"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/managers/hud/newhudstatsscreen"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/managers/menu/stageendscreengui"/>
         <hook file="utilities/TabStats.lua" source_file="lib/units/civilians/civiliandamage"/>
         <hook file="utilities/TabStats.lua" source_file="lib/units/enemies/cop/copdamage"/>
+
+        <hook file="utilities/EnhancedCrewLoadout.lua" source_file="lib/managers/hud/newhudstatsscreen"/>
+        <hook file="utilities/EnhancedCrewLoadout.lua" source_file="lib/managers/menu/crimespreedetailsmenucomponent"/>
+        <hook file="utilities/EnhancedCrewLoadout.lua" source_file="lib/managers/contractboxgui"/>
+        <hook file="utilities/EnhancedCrewLoadout.lua" source_file="lib/managers/missionbriefinggui"/>                  
+
+        <hook file="utilities/Scripts.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/tweak_data/economytweakdata"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/managers/items/menuitemmultichoice"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/managers/menu/menunodegui"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/equipment/weapons/raycastweaponbase"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/managers/experiencemanager"/> 
+        <hook file="utilities/Scripts.lua" source_file="lib/managers/moneymanager"/> 
+
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/menu/multiprofileitemgui"/> 
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/menu/playerinventorygui"/> 
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/menu/missionbriefinggui"/> 
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/menu/renderers/menunodeskillswitchgui"/> 
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/multiprofilemanager"/> 
+        <hook file="utilities/ProfileMenu.lua" source_file="lib/managers/menumanager"/> 
+
+        <!--
+        <hook file="utilities/PrePlanManager.lua" source_file="lib/managers/preplanningmanager"/>
+        <hook file="utilities/PrePlanManager.lua" source_file="lib/managers/menumanager"/>
+        <hook file="utilities/PrePlanManager.lua" source_file="lib/managers/preplanningmapgui"/> -->
+
+        <hook file="utilities/BurstFire.lua" source_file="lib/managers/hud/hudteammate"/>
+        <hook file="utilities/BurstFire.lua" source_file="lib/managers/hud/hudteammate"/>  
+        <hook file="utilities/BurstFire.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+        <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboweaponbase"/>
+        <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboshotgunbase"/>
+        <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/newraycastweaponbase"/>
+
+        <hook file="utilities/LoadoutPanel.lua" source_file="lib/entry"/>
+        <!--
+        <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hudmanagerpd2"/>
+        <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hud/huddriving"/>
+        <hook file="utilities/DrivingHUD.lua" source_file="lib/states/ingamedriving"/>-->
+
+
+        <hook file="utilities/HUDList.lua" source_file="lib/manager/hudmanagerpd2"/>
+        <hook file="utilities/HUDList.lua" source_file="lib/manager/objectinteractionmanager"/>
+        <hook file="utilities/HUDList.lua" source_file="lib/manager/hud/hudassaultcorner"/>
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

@@ -539,19 +539,19 @@ if string.lower(RequiredScript) == "lib/managers/hud/newhudstatsscreen" then
 	}
 
 	HUDStatsScreen.STAT_ITEMS = {
-		{ name = "accuracy", 			text_id = "victory_hit_accuracy", 				color = Color.white, 				update = {func = "session_hit_accuracy", 			func_alltime = "", 	params = {}, suffix = "%"	},		no_alltime = true		},
-		{ name = "total_damage", 		text_id = "TotalDamage", 		color = Color(1, 0.69, 0.19, 0.38), update = {func = "session_damage", 					func_alltime = "", 	params = {}					},		no_alltime = true		},
-		{ name = "tanks_killed", 		text_id = "TanksKilled", 		color = Color.red, 					update = {func = "session_total_tanks_killed", 		func_alltime = "total_tanks_killed", 	params = {}							}, 	},
-		{ name = "cloakers_killed", 	text_id = "CloakersKilled", 	color = Color.green,				update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"spooc", "count"}			}, 	},
-		{ name = "shields_killed", 		text_id = "ShieldKilled", 	color = Color.yellow,				update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"shield", "count"}		}, 	},
-		{ name = "snipers_killed", 		text_id = "SnipersKilled", 	color = Color(1, 0.67, 0.84, 0.90),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"sniper", "count"}		}, 	},
-		{ name = "tasers_killed", 		text_id = "TasersKilled", 	color = Color(1, 0, 0.55, 0.55), 	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"taser", "count"}			}, 	},
-		{ name = "medic_killed", 		text_id = "MedicKilled", 		color = Color(1, 1, 0.55, 0.24),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"medic", "count"}			}, 	},
-		{ name = "gensec_killed", 		text_id = "GensecsKilled", 	color = Color(1, 0.75, 1, 0.24),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"gensec", "count"}		}, 	},
-		{ name = "melee_killed", 		text_id = "MeleeKilled", 		color = Color(1, 0.54, 0.02, 0.02),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "melee"}			}, 	},
-		{ name = "explosion_killed", 	text_id = "ExplosionKills", 	color = Color(1, 1, 0.5, 0),		update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "explosion"}		}, 	},
-		{ name = "nonspecials_killed", 	text_id = "NormalKills", 	color = Color(1, 0.78, 0.15, 0.21),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"non_special", "count"}	}, 	},
-		{ name = "total_killed", 		text_id = "SumKilled", 		color = Color(1, 0.5, 0.5, 0.21),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "count"}	}, 	},
+		{ name = "accuracy", 			text_id = "Accuracy", 				color = Color.white, 				update = {func = "session_hit_accuracy", 			func_alltime = "", 	params = {}, suffix = "%"	},		no_alltime = true		},
+		{ name = "total_damage", 		text_id = "Total Damage", 		color = Color(1, 0.69, 0.19, 0.38), update = {func = "session_damage", 					func_alltime = "", 	params = {}					},		no_alltime = true		},
+		{ name = "tanks_killed", 		text_id = "Tanks Killed", 		color = Color.red, 					update = {func = "session_total_tanks_killed", 		func_alltime = "total_tanks_killed", 	params = {}							}, 	},
+		{ name = "cloakers_killed", 	text_id = "Cloakers Killed", 	color = Color.green,				update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"spooc", "count"}			}, 	},
+		{ name = "shields_killed", 		text_id = "Shield Killed", 	color = Color.yellow,				update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"shield", "count"}		}, 	},
+		{ name = "snipers_killed", 		text_id = "Snipers Killed", 	color = Color(1, 0.67, 0.84, 0.90),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"sniper", "count"}		}, 	},
+		{ name = "tasers_killed", 		text_id = "Tasers Killed", 	color = Color(1, 0, 0.55, 0.55), 	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"taser", "count"}			}, 	},
+		{ name = "medic_killed", 		text_id = "Medic Killed", 		color = Color(1, 1, 0.55, 0.24),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"medic", "count"}			}, 	},
+		{ name = "gensec_killed", 		text_id = "Gensecs Killed", 	color = Color(1, 0.75, 1, 0.24),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"gensec", "count"}		}, 	},
+		{ name = "melee_killed", 		text_id = "Melee Killed", 		color = Color(1, 0.54, 0.02, 0.02),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "melee"}			}, 	},
+		{ name = "explosion_killed", 	text_id = "Explosion Kills", 	color = Color(1, 1, 0.5, 0),		update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "explosion"}		}, 	},
+		{ name = "nonspecials_killed", 	text_id = "Normal Kills", 	color = Color(1, 0.78, 0.15, 0.21),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"non_special", "count"}	}, 	},
+		{ name = "total_killed", 		text_id = "Sum Killed", 		color = Color(1, 0.5, 0.5, 0.21),	update = {func = "session_enemy_killed_by_type", 	func_alltime = "enemy_killed_by_type", 	params = {"total", "count"}	}, 	},
 		{ name = "total_downs", 		text_id = "Downed", 				color = Color(1, 0.5, 0.5, 0.5),	update = {func = "total_downed", 					func_alltime = "total_downed_alltime", 	params = {}							}, 	},
 		{ name = "total_revives", 		text_id = "Revives", 	color = Color(1, 1, 0, 0.4),		update = {func = "session_total_revives", 			func_alltime = "total_revives",			params = {}							}, 	},
 	}
@@ -752,7 +752,7 @@ if string.lower(RequiredScript) == "lib/managers/hud/newhudstatsscreen" then
 		for i, data in ipairs(HUDStatsScreen.STAT_ITEMS) do
 			local name = data.name
 			local color = items_color or data.color
-			local title_params = { color = color, font_size = self._tabstats_settings.FONT_SIZE or 18, text = managers.localization:to_upper_text(data.text_id or "") }
+			local title_params = { color = color, font_size = self._tabstats_settings.FONT_SIZE or 18, text = data.text_id }
 			local text_params = { color = color, font_size = self._tabstats_settings.FONT_SIZE or 18, text = string.format("0%s", data.suffix or "") }
 			self:_create_stat_list_entry(placer, panel, self._rightpos[2], (data.no_alltime and small_list_w or list_w), name, title_params, text_params, not data.no_alltime and text_params or nil, nil)
 			placer:new_row()

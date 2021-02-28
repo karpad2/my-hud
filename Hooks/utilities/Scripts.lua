@@ -3,7 +3,7 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
 	local set_slot_ready_orig = HUDManager.set_slot_ready
 
 	function HUDManager:set_teammate_ammo_amount(id, selection_index, max_clip, current_clip, current_left, max, ...)
-		if WolfHUD:getSetting({"CustomHUD", "USE_REAL_AMMO"}, true) then
+		if true then
 			local total_left = current_left - current_clip
 			if total_left >= 0 then
 				current_left = total_left
@@ -62,7 +62,7 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
 									is_cancel_button = true,
 								}
 							}
-							QuickMenu:new( managers.localization:text("wolfhud_dialog_force_start_title"), managers.localization:text("wolfhud_dialog_force_start_desc"), menu_options, true )
+							QuickMenu:new("Force to Start?", "Force to Start", menu_options, true )
 						end
 					end
 				else
@@ -79,7 +79,7 @@ elseif string.lower(RequiredScript) == "lib/tweak_data/timespeedeffecttweakdata"
 	}
 	function TimeSpeedEffectTweakData:init(...)
 		init_original(self, ...)
-		if WolfHUD:getSetting({"SkipIt", "NO_SLOWMOTION"}, true) then
+		if  true then
 			local function disable_effect(table)
 				for name, data in pairs(table) do
 					if not FORCE_ENABLE[name] then
@@ -125,7 +125,7 @@ elseif string.lower(RequiredScript) == "lib/managers/menu/menunodegui" then
 	if MenuNodeMainGui then
 		Hooks:PostHook( MenuNodeMainGui , "_add_version_string" , "MenuNodeMainGuiPostAddVersionString_WolfHUD" , function( self )
 			if alive(self._version_string) then
-				self._version_string:set_text("Payday 2 v" .. Application:version() .. " | WolfHUD v" .. WolfHUD:getVersion())
+				self._version_string:set_text("Payday 2 v" .. Application:version() .. " | karpad2 v" .. "1.0.0")
 			end
 		end)
 	end

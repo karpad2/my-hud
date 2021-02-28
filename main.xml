@@ -47,6 +47,9 @@
         <hook file="HUD/HUDMinimap.lua" source_file="lib/units/contourext"/>
         <hook file="HUD/HUDMinimap.lua" source_file="lib/managers/hudmanager"/>
         <hook file="PacifiedCivs.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+        <hook file="utilities/lvm.lua" source_file="lib/managers/enemymanager"/>
+        <hook file="utilities/lvm.lua" source_file="lib/managers/gameplaycentralmanager"/>
+        <hook file="utilities/lvm.lua" source_file="lib/units/enemies/cop/copdamage"/>
 
 
     </Hooks>

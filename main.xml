@@ -3,7 +3,7 @@
         <class file="NepHudMenu.lua"/>
         <class file="SoraHUDChangelog.lua"/>
     </Classes>
-    <AssetUpdates id="31174" version="Final2" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+    <AssetUpdates id="31174" version="1.0.0" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
 
     <Hooks directory="Hooks">
         <hook file="Setup.lua" source_file="lib/setups/setup"/>
@@ -152,17 +152,26 @@
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboweaponbase"/>
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboshotgunbase"/>
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/newraycastweaponbase"/>
-
         <hook file="utilities/LoadoutPanel.lua" source_file="lib/entry"/>
         <!--
         <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hudmanagerpd2"/>
         <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hud/huddriving"/>
         <hook file="utilities/DrivingHUD.lua" source_file="lib/states/ingamedriving"/>-->
-
-
         <hook file="utilities/HUDList.lua" source_file="lib/manager/hudmanagerpd2"/>
         <hook file="utilities/HUDList.lua" source_file="lib/manager/objectinteractionmanager"/>
         <hook file="utilities/HUDList.lua" source_file="lib/manager/hud/hudassaultcorner"/>
+
+        <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/interactions/interactionext"/>
+        <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/equipment/ecm_jammer/ecmjammerbase"/>
+        <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/weapons/sentrygunweapon"/>
+
+        <hook file="utilities/KillCounter.lua" source_file="lib/manager/hud/hudteammate"/>
+        <hook file="utilities/KillCounter.lua" source_file="lib/manager/hudmanagerpd2"/>
+        <hook file="utilities/KillCounter.lua" source_file="lib/units/enemies/cop/copdamage"/>
+        <hook file="utilities/KillCounter.lua" source_file="lib/manager/statisticsmanager"/>
+        <hook file="utilities/KillCounter.lua" source_file="lib/units/equipment/sentry_gun/sentrygunbase"/>
+        
+
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

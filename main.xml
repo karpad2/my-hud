@@ -46,6 +46,9 @@
         <hook file="HUD/HUDMinimap.lua" source_file="lib/units/enemies/cop/copbase"/>
         <hook file="HUD/HUDMinimap.lua" source_file="lib/units/contourext"/>
         <hook file="HUD/HUDMinimap.lua" source_file="lib/managers/hudmanager"/>
+        <hook file="PacifiedCivs.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+
+
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

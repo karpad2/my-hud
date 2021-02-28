@@ -1,0 +1,1 @@
+{"voc14":1,"enabled":true,"ai_enabled":true}

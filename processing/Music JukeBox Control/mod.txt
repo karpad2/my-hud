@@ -1,0 +1,28 @@
+{
+    "name" : "Music JukeBox Control",
+    "description" : "Control the music you play in the heists",
+    "author" : "easternunit100",
+    "contact" : "nil",
+    "version" : "2.1",
+    "image" : "mod.png",
+    "blt_version" : 2,
+    "priority" : 30,
+	"updates" : [
+		{
+			"identifier" : "musicjukeboxcontrol",
+			"host": {
+				"meta": "https://github.com/easternunit100/DeadLocke-Payday-2/raw/Music-JukeBox-Control/meta.json"
+			}
+		}
+	],
+	"hooks" : [                                                                                                                                                                                                                                                                                                                                                          
+		{ "hook_id" : "lib/entry",    "script_path" : "lua/music.lua"},       
+		{ "hook_id" : "lib/managers/musicmanager",    "script_path" : "lua/musicmanager.lua"}  
+	],
+	"persist_scripts" : [
+		{ 
+			"global" : "MusicSettupJukeBox",
+			"script_path" : "lua/setup.lua" 
+		}
+	]
+}

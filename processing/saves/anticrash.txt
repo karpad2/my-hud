@@ -1,0 +1,1 @@
+{"anim_clbk_spawn_dropped_magazine":"kick","set_stance":"unprotected","damage_fire":"kick","set_stance (manual)":"kick","suppression":"unprotected","player_action_walk_nav_point (manual)":"kick","player_action_walk_nav_point":"unprotected","anticrash_default_action":"chat"}

@@ -1,0 +1,1 @@
+{"slower_but_safer":false,"improved_tactics":false,"tie_stamina_to_lives":false,"cop_awareness":false,"fastpaced":false,"walking_quality":1,"nervous_game":false,"optimized_inputs":true,"lod_updater":3,"iter_chase":false,"task_throughput":600,"spawn_delay":false}

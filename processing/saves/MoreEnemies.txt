@@ -1,0 +1,1 @@
+{"general_groups_multiplier":2,"focred_dead":true,"assault_force":99,"more_sniper":true,"special_max_shield":13,"special_max_taser":20,"more_sniper_amount":3,"general_max_of_groups":12,"more_spawn":2,"force_cap_attach":144,"force_cap":true,"force_cap_normal":98,"special_max_spooc":10,"special_max_medic":22,"special_max_sniper":36,"special_max_tank":10}

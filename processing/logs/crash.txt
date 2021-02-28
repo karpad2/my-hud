@@ -1,0 +1,21 @@
+Segmentation fault!
+
+Obtained 18 C++ stack frames:
+ 0x7f06fab4c86e libsuperblt_loader.so : blt::error::handler(int)+0x8b
+ 0x7f06fa1d1950 libc.so.6 : +0x41950
+       0x8a30d2 payday2_release : dsl::ScriptValue<dsl::ScriptColor>::get_var(lua_State*, int)+0x1e2
+       0x8b08be payday2_release : dsl::ReturnType<void>::LuaWrapper_C1<gui::Rect, dsl::DIColor const&, dsl::Int2Type<38> >::call(lua_State*)+0x7e
+                payday2_release() [0x1315d60]
+      0x130f8c2 payday2_release : lua_pcall+0x72
+ 0x7f06faae7754 libsuperblt_loader.so : blt::dt_lua_call(lua_State*, int, int)+0xa0
+       0xd92c24 payday2_release : dsl::LuaInterface::rawcall(dsl::LuaArgs)+0x24
+       0xbcd388 payday2_release : Application::exec_program(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)+0x518
+       0xbcf24d payday2_release : Application::update()+0x2cd
+ 0x7f06faae7667 libsuperblt_loader.so : blt::dt_Application_update(void*)+0x69
+       0xbcedcf payday2_release : Application::run()+0x15f
+       0xe171cc payday2_release : app_run()+0x20c
+       0xe18135 payday2_release : app_entry_filtered()+0xe65
+       0xe16e44 payday2_release : main+0x1a4
+ 0x7f06fa1b8cb2 libc.so.6 : __libc_start_main+0xf2
+                payday2_release() [0x7ef5f4]
+

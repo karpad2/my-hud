@@ -1,0 +1,11 @@
+{
+  	"name" : "Old airbow concealemnt",
+    	"description" : "Brings back the good ol op af airbow.",
+    	"author" : "silencerskeelz"
+	"version" : "1.0",
+	"blt_version": 2,
+	"hooks" : [
+
+   { "hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "airbowconceal.lua" }
+]
+}

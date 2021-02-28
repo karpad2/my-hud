@@ -1,0 +1,115 @@
+Revision 28:
+- [Stealing Xmas] fixed an occluder too wide on roof
+
+Revision 27:
+- [Brooklyn Bank] added occluders
+
+Revision 26:
+- [Buluc's Mansion] refined occluders
+- [Scarface Mansion] added occluders
+- [Stealing Xmas] refined occluders
+
+Revision 25:
+- [Goat Simulator D1] added occluders
+
+Revision 24:
+- [Breakfast in Tijuana] added portals
+- [Diamond Heist] increased roman box that missed a part of a utility room
+- [Hoxton Breakout D2] fixed issues near infirmary
+- [Shacklethorn Auction] fixed stairs back/left and a wall near right staircase
+- fixed occlusion sometimes wrongfully applied on outlined characters
+
+Revision 23:
+- [Big Bank] fixed an occluder covering a door near the vault
+- [Border Crossing] added occluders
+
+Revision 22:
+- [San Martin Bank] fixed many issues on ground floor inside bank
+
+Revision 21:
+- [Diamond Heist] reduced an occluder leaking in vault
+- [Shacklethorn Auction] fixed stairs near storage area
+- [Shacklethorn Auction] fixed occluder too large near staircase room right
+
+Revision 20:
+- [White House] fixed secret area and an issue in main building stairs to tunnel
+
+Revision 19:
+- [Golden Grin Casino] fixed issues around hotel end/second part
+- improved occlusion manager (affects all maps)
+
+Revision 18:
+- [No Mercy] fixed 2 issues around reception
+- [White House] improved diplomatic area
+
+Revision 17:
+- [Big Bank] fixed a few visibility issues
+- [Diamond Heist] added occluders
+- [Golden Grin Casino] added occluders
+- [Hoxton Breakout D2] fixed ground level armory
+- [Shacklethorn Auction] added occluders
+- [Shacklethorn Auction] reworked storage area
+- [The Diamond] refined occluders
+- [White House] fixed several issues in main building
+- extended changes to reach holdout game mode
+
+Revision 16:
+- [White House] remade portals
+- [No Mercy] fixed rooftop
+- [San Martin Bank] added a couple of occluders
+- [San Martin Bank] added some forgotten units to portals inside bank
+- [San Martin Bank] fixed some cars occludability
+- [Shacklethorn Auction] fixed limo occludability
+
+Revision 15:
+- [Buluc's Mansion] added occluders and refined portals
+- [Buluc's Mansion] erase any previous portal data
+
+Revision 14:
+- [White House] added more occluders, mostly in west wing
+
+Revision 13:
+- [The Diamond] fixed minor issues and extended portals
+
+Revision 12:
+- [The Diamond] added portals and occluders
+
+Revision 11:
+- [No Mercy] remade portals
+
+Revision 10:
+- [Stealing Xmas] increased size of a box to include all backroom of shoe store
+
+Revision 9:
+- [Slaughterhouse] simplified portals (34 boxes down to 20) and completed units lists
+
+Revision 8:
+- [Hoxton Breakout D2] fixed issues in infirmary and IT
+
+Revision 7:
+- [Buluc's Mansion] fixed a few object visibility issues
+
+Revision 6:
+- [Big Bank] fixed an oversight when door is on ground floor
+- [Big Bank] fixed elevator area not correctly included
+
+Revision 5:
+- [Big Bank] added portals and occluders
+- [Golden Grin Casino] fixed portal issues on parking
+- [Henry's Rock] completed portals
+- [Hoxton Breakout D1] added portals
+- [Hoxton Breakout D2] reworked existing portals and added new ones
+- [Shacklethorn Auction] added portals
+- [Stealing Xmas] added portals and occluders, improving frame rate mainly on ground floor
+
+Revision 4:
+- [Golden Grin Casino] fixed some portal issues
+
+Revision 3:
+- [Golden Grin Casino] reworked existing portals and added new ones
+
+Revision 2:
+- [Hell's Island] fixed canteen's portal not covering a part
+
+Revision 1:
+- initial release

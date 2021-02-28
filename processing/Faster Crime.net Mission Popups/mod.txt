@@ -1,0 +1,15 @@
+{
+	"name":"Quicker Offline Crime.net job popups",
+	"description":"Speeds up the mission popups in crime.net offline",
+	"author":"marijn211",
+	"contact":"marijn211@hotmail.com",
+	"version":"1",
+	"color": "50 5 5",
+	"blt_version": 2,
+	"hooks" :
+	[
+		{	"hook_id":"lib/tweak_data/guitweakdata",
+		 	"script_path":"american.lua"
+		}
+	]
+}

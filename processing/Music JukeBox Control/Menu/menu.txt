@@ -1,0 +1,18 @@
+{
+	"menu_id" : "jukeboxcontrol",
+	"parent_menu_id" : "blt_options",
+	"title" : "jukeboxcontrol_title",
+	"description" : "jukeboxcontrol_desc",
+	"items" : [
+		{
+			"type" : "keybind",
+			"id" : "jukeboxcontrol_select_track",
+			"title" : "jukeboxcontrol_choose_track_menu_title",
+			"description" : "jukeboxcontrol_choose_track_menu_desc",
+			"keybind_id" : "jkbxcontrol_bind4",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"func" : "jukeboxcontrol_select_track"
+		}
+	]
+}

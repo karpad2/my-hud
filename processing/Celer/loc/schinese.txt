@@ -1,0 +1,3 @@
+{
+	"cel_options_map_change_generic_desc" : "访问$cel_url以了解该MOD在不同地图下的优化细节"
+}

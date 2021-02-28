@@ -1,0 +1,35 @@
+Revision 11:
+- added secured loot cleaner
+
+Revision 10:
+- added protection when interacting with deployables not set up (commonly due to bad network)
+
+Revision 9:
+- fixed text verification branch that missed a "not"
+
+Revision 8:
+- added text verification
+
+Revision 7:
+- added weapon blueprint sanitizer
+
+Revision 6:
+- fixed case of set_stance messed up big time
+- fixed options menu not listing non-generic options
+
+Revision 5:
+- added more checks on the 2 cases handled manually
+
+Revision 4:
+- added manual checks on some of the most called rpc
+- changed default settings of forementioned rpc to unprotected (by slow generic protection)
+
+Revision 3:
+- reworded setting "nothing" to "quiet"
+- added setting "unprotected"
+
+Revision 2:
+- extended to ConnectionNetworkHandler
+
+Revision 1:
+- initial release

@@ -1,0 +1,56 @@
+{
+	"fs_options_menu_title" : "全速突击",
+	"fs_options_menu_desc" : "Full Speed Swarm",
+
+	"fs_options_task_throughput_title" : "每秒计算量",
+	"fs_options_task_throughput_desc" : "默认为600, 更大的数值只能在敌人数量增加时生效\n数值的大小可能会决定敌人反应速度的快慢（若设置为 0 MOD将会自动决定每秒执行的最大任务数量）",
+
+	"fs_options_walking_quality_title" : "行动模式",
+	"fs_options_walking_quality_desc" : "警察的行动更加流畅（“严阵以待“-敌人每2帧行动一次 “如临大敌”-敌人每1帧行动一次）",
+	"fs_options_walking_quality_multi_a" : "普普通通",
+	"fs_options_walking_quality_multi_b" : "严阵以待",
+	"fs_options_walking_quality_multi_c" : "如临大敌",
+
+	"fs_options_lod_updater_title" : "反应优化",
+	"fs_options_lod_updater_desc" : "让警察在人数较多的时候依旧灵敏，劫案重新开始后会自动应用您的设置",
+	"fs_options_lod_updater_multi_a" : "雷厉风行",
+	"fs_options_lod_updater_multi_b" : "眼疾手快",
+	"fs_options_lod_updater_multi_c" : "默认",
+
+	"fs_options_optimized_inputs_title" : "输入优化",
+	"fs_options_optimized_inputs_desc" : "改善了指令输入性能，当你使用单发武器时会大大提升手感",
+
+	"fs_options_anticrash_title" : "炸房保护",
+	"fs_options_anticrash_desc" : "检测数据包，防止游戏因为客机的数据包而崩溃（可以防止部分数据包炸房）",
+
+	"fs_options_fastpaced_title" : "训练有素",
+	"fs_options_fastpaced_desc" : "显著减少警察每个行动之间的停顿",
+
+	"fs_options_iter_chase_title" : "穷追不舍",
+	"fs_options_iter_chase_desc" : "需要Iter模组，警察将会计划自己到玩家的最短路线并且会马不停蹄的赶到那里",
+
+	"fs_options_nervous_game_title" : "快速反应",
+	"fs_options_nervous_game_desc" : "警察看到你后开枪反应时间减少\n此选项不影响潜行的暴露检测速率",
+
+	"fs_options_cop_awareness_title" : "火力掩护",
+	"fs_options_cop_awareness_desc" : "警察会更快地移动并且进行火力掩护\n射程会因为移动而改变",
+
+	"fs_options_improved_tactics_title" : "战术围剿",
+	"fs_options_improved_tactics_desc" : "警察会从多个方向和角度进攻且更偏向于从侧翼包抄劫匪\n此因子需要Iter模组支持",
+
+	"fs_options_spawn_delay_title" : "延迟刷兵",
+	"fs_options_spawn_delay_desc" : "杀敌后10米内的刷新点下次刷新时间将延后10~20秒\n以防警察在您的面前刷新 (或者是一个幻影特警刷新在你屁股后面)",
+
+	"fs_mutator_bigparty_name" : "FSS大派对",
+	"fs_mutator_bigparty_desc" : "自定义突击时的最大警察数量",
+	"fs_mutator_bigparty_longdesc" : "自定义突击时的最大警察数量",
+	"fs_menu_mutator_cops_nr" : "警察数量上限",
+
+	"fs_mutator_realelastic_name" : "FSS极限挑战",
+	"fs_mutator_realelastic_desc" : "极大增加强攻游戏难度",
+	"fs_mutator_realelastic_longdesc" : "大幅度减少警察的最大数量，激活所有FSS的游戏更改选项，并取消破甲后的无敌时间，您的生命会影响您的耐力，例如受伤会减少你的耐力。此因子需要Iter模组支持",
+
+	"fs_mutator_stealthroids_name" : "FSS最高警戒",
+	"fs_mutator_stealthroids_desc" : "使潜入模式下的NPC们跑步巡逻",
+	"fs_mutator_stealthroids_longdesc" : "警察和平民都会跑步巡逻，但他们依然会在某处停下来暂时站桩。\n此选项在潜入和强攻模式均有效。"
+}

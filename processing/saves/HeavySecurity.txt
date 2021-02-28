@@ -1,0 +1,1 @@
+{"Enable":false,"Level":0,"Enemy_Type":4,"AllCivilians":false,"AddonFollower":2,"AllEnemies":false}

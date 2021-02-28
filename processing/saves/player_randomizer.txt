@@ -1,0 +1,1 @@
+{"random_deployable":true,"hide_selections":true,"only_owned_weapons":false,"weapon_skin_chance":0.5,"random_armor":false,"enabled":false,"random_grenade":false,"random_secondary":true,"random_melee":true,"random_primary":true}

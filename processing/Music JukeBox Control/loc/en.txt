@@ -1,0 +1,135 @@
+{
+
+	"jukeboxcontrol_title" : "Music JukeBox Control",
+	"jukeboxcontrol_desc" : "Control the music your way.",
+	
+	"jukeboxcontrol_choose_music_type_menu_title" : "Choose a Menu track",
+	"jukeboxcontrol_choose_music_type_heists_title" : "Choose a Heist track",
+	
+	"jukeboxcontrol_choose_track_menu_title" : "Music JukeBox Emitter",
+	"jukeboxcontrol_choose_track_menu_desc" : "Bring up the Music JukeBox Control Menu.",
+	
+	"jukeboxcontrol_choose_music_category" : "Choose Track Type",
+	
+	"jukeboxcontrol_music_type_menu" : "Menu Tracks",
+	"jukeboxcontrol_music_type_heists" : "Heists Tracks",
+	
+	"jukeboxcontrol_choose_music_event" : "Choose music phase",
+	
+	"jukeboxcontrol_choose_music_event_category" : "Choose music phase category",
+	
+	"jukeboxcontrol_suspense_event_start" : "Start",
+
+	"jukeboxcontrol_cancel" : "Cancel",
+	
+	"jukeboxcontrol_next_page" : "----Next Page---->>",
+	"jukeboxcontrol_previous_page" : "<<----Previous Page----",
+	
+	"jukeboxcontrol_choose_forbidden_music" : "Choose a track"
+	"jukeboxcontrol_choose_suspense" : "Choose Stealth Phase"
+	
+	"jukeboxcontrol_select_track_menu_desc" : "Bring up a list of tracks to choose from.",
+	
+	"jukeboxcontrol_switch_music_types_title" : "Select track phase",
+	"jukeboxcontrol_switch_music_types_desc" : "Choose a phase for the track",
+	
+	"jukeboxcontrol_switch_music_events_title" : "Cycle Music Events",
+	"jukeboxcontrol_switch_music_events_desc" : "Cycle through a list of music events.",
+	
+	"jukeboxcontrol_post_event_title" : "Play Music event",
+	"jukeboxcontrol_post_event_desc" : "Play the chosen music event.",
+
+	"jukeboxcontrol_current_category" : "MusicJukeBox Current Category: $CATEGORY",
+	"jukeboxcontrol_current_event" : "MusicJukeBox Current Music Event: $MUSIC_EVENT",
+	"jukeboxcontrol_no_current_music_type" : "No Music Type selected",
+	"jukeboxcontrol_no_current_event" : "No music event selected",
+	
+	"jukeboxcontrol_category_default" : "Default Phases",
+	"jukeboxcontrol_category_stealth" : "Stealth Phases",
+	"jukeboxcontrol_category_alesso" : "Alesso Phases",
+	"jukeboxcontrol_category_alesso_muffled" : "Alesso Muffled Levels",
+	"jukeboxcontrol_category_alesso_crowd" : "Alesso Crowd Levels",
+	"jukeboxcontrol_category_alesso_setups" : "Alesso Setups",
+	"jukeboxcontrol_category_suspenses" : "Suspenses",
+	"jukeboxcontrol_category_forbidden_music" : "Stealth tracks",
+	"jukeboxcontrol_category_opening_safes" : "Opening Safes",
+	"jukeboxcontrol_category_stealth_events" : "Stealth phases",
+	
+	"jukeboxcontrol_event_stop_all_music" : "Stop Music",
+	"jukeboxcontrol_event_music_heist_setup" : "Stealth",
+	"jukeboxcontrol_event_music_heist_control" : "Control",
+	"jukeboxcontrol_event_music_heist_anticipation" : "Anticipation",
+	"jukeboxcontrol_event_music_heist_assault" : "Assault",
+	
+	
+	"jukeboxcontrol_event_cash_safe_open_01" : "Safe Open Rarity: common",
+	"jukeboxcontrol_event_cash_safe_open_02" : "Safe Open Rarity: uncommon",
+	"jukeboxcontrol_event_cash_safe_open_03" : "Safe Open Rarity: rare",
+	"jukeboxcontrol_event_cash_safe_open_04" : "Safe Open Rarity: epic",
+	"jukeboxcontrol_event_cash_safe_open_05" : "Safe Open Rarity: LEGENDARY!!!",	
+	
+	"jukeboxcontrol_event_music_hit_setup" : "Hit Stealth",
+	"jukeboxcontrol_event_music_hit_control" : "Hit Control",
+	"jukeboxcontrol_event_music_hit_anticipation" : "Hit Anticipation",
+	"jukeboxcontrol_event_music_hit_assault" : "Hit Assault",
+	
+	"jukeboxcontrol_event_music_stress_setup" : "Stress Stealth",
+	"jukeboxcontrol_event_music_stress_control" : "Stress Control",
+	"jukeboxcontrol_event_music_stress_anticipation" : "Stress Anticipation",
+	"jukeboxcontrol_event_music_stress_assault" : "Stress Assault",
+	
+	"jukeboxcontrol_event_music_stealth_setup" : "Stealth Stealth",
+	"jukeboxcontrol_event_music_stealth_control" : "Stealth Control",
+	"jukeboxcontrol_event_music_stealth_anticipation" : "Stealth Anticipation",
+	"jukeboxcontrol_event_music_stealth_assault" : "Stealth Assault",
+	
+	"jukeboxcontrol_event_alesso_music_play" : "Alesso Start",
+	"jukeboxcontrol_event_alesso_music_cut" : "Alesso Cut",
+	"jukeboxcontrol_event_alesso_music_fade" : "Alesso Fade",
+	"jukeboxcontrol_event_alesso_music_drop" : "Alesso Hacking Assault",
+	"jukeboxcontrol_event_alesso_music_stealth" : "Alesso Stealth",
+	"jukeboxcontrol_event_alesso_music_control" : "Alesso Control",
+	"jukeboxcontrol_event_alesso_music_anticipation" : "Alesso Anticipation",
+	"jukeboxcontrol_event_alesso_music_assault" : "Alesso Assault",
+	"jukeboxcontrol_event_alesso_music_hacking_standby" : "Alesso Hacking Standby",
+	"jukeboxcontrol_event_alesso_music_hacking_progress" : "Alesso Hacking Anticipation",
+	
+	"jukeboxcontrol_force_stop_all_music" : "Force Stop all music",
+	"jukeboxcontrol_stop_all_music" : "Stop all music",
+	"jukeboxcontrol_music_uno_fade" : "Fade Music muffled",
+	"jukeboxcontrol_music_uno_fade_reset" : "Unmuffled Music",
+	
+	"jukeboxcontrol_event_crowd_light" : "Alesso Crowd Light",
+	"jukeboxcontrol_event_crowd_medium" : "Alesso Crowd Medium",
+	"jukeboxcontrol_event_crowd_heavy" : "Alesso Crowd Heavy",
+	"jukeboxcontrol_event_crowd_crazy" : "Alesso Crowd Crazy",
+	"jukeboxcontrol_event_crowd_single_ending" : "Alesso Single Ending",
+	"jukeboxcontrol_event_alesso_muffle_1" : "Alesso Muffled level 1",
+	"jukeboxcontrol_event_alesso_muffle_2" : "Alesso Muffled level 2",
+	"jukeboxcontrol_event_alesso_muffle_3" : "Alesso Muffled level 3",
+	"jukeboxcontrol_event_alesso_muffle_4" : "Alesso Muffled level 4",
+	"jukeboxcontrol_event_alesso_muffle_5" : "Alesso Muffled level 5",
+	"jukeboxcontrol_event_alesso_muffle_6" : "Alesso Muffled level 6",
+	"jukeboxcontrol_event_alesso_muffle_7" : "Alesso Muffled level 7",
+	"jukeboxcontrol_event_alesso_muffle_8" : "Alesso Muffled level 8",
+	
+	
+	"jukeboxcontrol_event_kosugi_music" : "And Now We Wait",
+	"jukeboxcontrol_event_music_dark" : "Pulse",	
+	"jukeboxcontrol_event_music_fish" : "White Collar Crime",
+	"jukeboxcontrol_event_music_tag" : "Joke's On You",
+	"jukeboxcontrol_event_music_xmn" : "Sly Gloves",
+	"jukeboxcontrol_event_generic" : "",
+
+	
+	"jukeboxcontrol_event_suspense_1" : "Stealth phase light",
+	"jukeboxcontrol_event_suspense_2" : "Stealth phase medium",
+	"jukeboxcontrol_event_suspense_3" : "Stealth phase high",
+	"jukeboxcontrol_event_suspense_4" : "Stealth phase intense",
+	"jukeboxcontrol_event_suspense_5" : "Escape",
+	
+	"jukeboxcontrol_type_title" : "Choose which version of Payday",
+	"jukeboxcontrol_type_pdth" : "Payday: The Heist",
+	"jukeboxcontrol_type_pd2" : "Payday 2",
+	"jukeboxcontrol_type_pdth2" : "Payday 2: The Heist"
+}

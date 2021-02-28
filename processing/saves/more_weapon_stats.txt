@@ -1,0 +1,1 @@
+{"fill_breakpoints":true,"use_preview_to_switch_breakpoints":true,"last_used_difficulty":"overkill_290","clicks_per_second":5,"enable_trigger_happy_for_first_bullet":true,"show_dlc_info":true}

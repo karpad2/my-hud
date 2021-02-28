@@ -66,12 +66,53 @@
 
         <hook file="utilities/heist_intro/managers/HologramManager.lua" source_file="lib/setups/setup"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/setups/setup"/>-
-       <!--<hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="core/lib/setups/coresetup"/>--> 
+       <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="core/lib/setups/coresetup"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/states/ingamewaitingforplayers"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudblackscreen"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/voicebriefingmanager"/>
         <hook file="utilities/heist_intro/tweak_data/LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
+        
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/setups/setup"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/utils/temporarypropertymanager"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/enemymanager"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/player/smokescreeneffect"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/objectinteractionmanager"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/playermanager"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/modifiers/boosts/gagemodifiermeleeinvincibility"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/modifiers/boosts/gagemodifierlifesteal"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/network/handlers/unitnetworkhandler"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/enemies/cop/copdamage"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/interactions/interactionext"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/playermovement"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/beings/player/playerinventory"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/playerdamage"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/states/playermaskoff"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/states/playerstandard"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/timergui"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/digitalgui"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/drill"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/securitylockgui"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/props/securitycamera"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/ammo_bag/ammobagbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/bodybags_bag/bodybagsbagbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/first_aid_kit/firstaidkitbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/grenade_crate/grenadecratebase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/sentry_gun/sentrygundamage"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/doctor_bag/doctorbagbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/ecm_jammer/ecmjammerbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/sentry_gun/sentrygunbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/units/equipment/weapons/sentrygunweapon"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractionbloodthirstbase"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractionexperthandling"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractionshockandawe"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractiondireneed"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractionunseenstrike"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractiontriggerhappy"/>
+        <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractiontagteam"/>
+
+
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

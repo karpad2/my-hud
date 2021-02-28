@@ -1,7 +1,7 @@
 --TODO: Fix Client Minion Damage upgrade sync (line: 1919)
 local print_debug = function(text, ...)
 	text = string.format("(GameInfo) %s", tostring(text))
-	WolfHUD:print_log(text, ...)
+	
 end
 
 if string.lower(RequiredScript) == "lib/setups/setup" then
@@ -4108,7 +4108,7 @@ if string.lower(RequiredScript) == "lib/player_actions/skills/playeractiontagtea
 			else -- Bot
 				tweak_id = CriminalsManager.convert_new_to_old_character_workname(managers.criminals:character_name_by_unit(unit))
 			end
-			name = WolfHUD:getCharacterName(tweak_id, false)
+			name = tweak_id
 		end
 		return name
 	end

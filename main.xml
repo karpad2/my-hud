@@ -52,6 +52,11 @@
         <hook file="utilities/lvm.lua" source_file="lib/units/enemies/cop/copdamage"/>
         <hook file="utilities/e_i/hudmanager.lua" source_file="lib/managers/hudmanager"/>
         <hook file="utilities/e_i/playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+        <hook file="utilities/press2hold.lua" source_file="lib/managers/hudmanagerpd2"/>
+        <hook file="utilities/press2hold.lua" source_file="lib/managers/hud/hudinteraction"/>
+        <hook file="utilities/press2hold.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+        <hook file="utilities/press2hold.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+        <hook file="utilities/HUDSuspicion.lua" source_file="lib/managers/hud/hudsuspicion"/>
 
     </Hooks>
 

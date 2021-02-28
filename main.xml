@@ -72,7 +72,7 @@
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudblackscreen"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/voicebriefingmanager"/>
         <hook file="utilities/heist_intro/tweak_data/LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
-        
+
         <hook file="utilities/GameInfoManager.lua" source_file="lib/setups/setup"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/utils/temporarypropertymanager"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/managers/enemymanager"/>
@@ -113,6 +113,13 @@
         <hook file="utilities/GameInfoManager.lua" source_file="lib/player_actions/skills/playeractiontagteam"/>
 
 
+        <hook file="utilities/TabStats.lua" source_file="lib/managers/crimespreemanager"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/managers/hudmanagerpd2"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/managers/statisticsmanager"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/hud/newhudstatsscreen"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/menu/stageendscreengui"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/units/civilians/civiliandamage"/>
+        <hook file="utilities/TabStats.lua" source_file="lib/units/enemies/cop/copdamage"/>
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

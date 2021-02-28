@@ -3,8 +3,7 @@
         <class file="NepHudMenu.lua"/>
         <class file="SoraHUDChangelog.lua"/>
     </Classes>
-
-    <AssetUpdates id="22152" version="Final2" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+    <AssetUpdates id="31174" version="Final2" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
 
     <Hooks directory="Hooks">
         <hook file="Setup.lua" source_file="lib/setups/setup"/>
@@ -57,7 +56,13 @@
         <hook file="utilities/press2hold.lua" source_file="lib/units/beings/player/states/playercivilian"/>
         <hook file="utilities/press2hold.lua" source_file="lib/units/beings/player/states/playerstandard"/>
         <hook file="utilities/HUDSuspicion.lua" source_file="lib/managers/hud/hudsuspicion"/>
+        <hook file="utilities/faster_popups.lua" source_file="lib/tweak_data/guitweakdata"/>
 
+        <hook file="utilities/DownCounter.lua" source_file="lib/managers/hudmanagerpd2"/>
+        <hook file="utilities/DownCounter.lua" source_file="lib/managers/hud/hudteammate"/>
+        <hook file="utilities/DownCounter.lua" source_file="lib/network/handlers/unitnetworkhandler"/>
+        <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/huskplayermovement"/>
+        <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/states/playerbleedout"/>
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">
@@ -125,11 +130,33 @@
         </options>
     </Options>
 
-    <AddFiles directory="Assets">
+    <AddFiles directory="assets">
         <png path="NepgearsyHUDReborn/ModIcon"/>
-
+        <!-- Fonts -->
         <font path="fonts/font_pdth" load="true"/>
         <texture path="fonts/font_pdth" load="true"/>
+        <texture path="fonts/noto_sans" load="true"/>
+		<font path="fonts/noto_sans" load="true"/>
+		<texture path="fonts/noto_sans_jp" load="true"/>
+		<font path="fonts/noto_sans_jp" load="true"/>
+		<texture path="fonts/noto_sans_numbers" load="true"/>
+		<font path="fonts/noto_sans_numbers" load="true"/>
+
+
+
+        <!-- INTRO CINEMATIC STUFF -->
+
+		<texture path="introcinematics/textures/cs"/>
+		<texture path="introcinematics/textures/cs_top"/>
+		<texture path="introcinematics/textures/cs_mid"/>
+		<texture path="introcinematics/textures/cs_bot"/>
+		<texture path="introcinematics/textures/cs_face"/>
+        <unit_mat_seq path="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/arm_cro/vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/c4_plantable/c4_plantable"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/bnk_prop_security_keybox/bnk_prop_security_keybox" auto_cp="false"/>
+		<unit_mat path="introcinematics/units/camera/cinematic_camera"/>
+
 
         <texture path="NepgearsyHUDReborn/Menu/NepHudMenu"/>
         <texture path="NepgearsyHUDReborn/Menu/BGColor"/>

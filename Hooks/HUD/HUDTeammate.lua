@@ -832,8 +832,8 @@ if not NepgearsyHUDReborn:IsTeammatePanelWide() then
 		if NepgearsyHUDReborn.Options:GetValue("StatusNumberType") == 1 or NepgearsyHUDReborn.Options:GetValue("StatusNumberType") == 3 then
 			local health = math.floor(data.current * 10)
 			local HealthNumber = self._radial_health_panel:child("HealthNumber")
-
-			HealthNumber:set_text(health)
+			HealthNumber:set_text("")	
+			--HealthNumber:set_text(health)
 		end
 	end)
 

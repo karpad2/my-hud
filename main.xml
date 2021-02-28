@@ -50,7 +50,8 @@
         <hook file="utilities/lvm.lua" source_file="lib/managers/enemymanager"/>
         <hook file="utilities/lvm.lua" source_file="lib/managers/gameplaycentralmanager"/>
         <hook file="utilities/lvm.lua" source_file="lib/units/enemies/cop/copdamage"/>
-
+        <hook file="utilities/e_i/hudmanager.lua" source_file="lib/managers/hudmanager"/>
+        <hook file="utilities/e_i/playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 
     </Hooks>
 

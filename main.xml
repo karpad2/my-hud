@@ -63,6 +63,15 @@
         <hook file="utilities/DownCounter.lua" source_file="lib/network/handlers/unitnetworkhandler"/>
         <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/huskplayermovement"/>
         <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/states/playerbleedout"/>
+
+        <hook file="utilities/heist_intro/managers/HologramManager.lua" source_file="lib/setups/setup"/>
+        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/setups/setup"/>-
+       <!--<hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="core/lib/setups/coresetup"/>--> 
+        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/states/ingamewaitingforplayers"/>
+        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
+        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudblackscreen"/>
+        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/voicebriefingmanager"/>
+        <hook file="utilities/heist_intro/tweak_data/LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
     </Hooks>
 
     <Options name="Options" auto_load="true" auto_build_menu="false">

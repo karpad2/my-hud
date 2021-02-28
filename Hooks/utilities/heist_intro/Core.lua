@@ -12,7 +12,7 @@ if not VisualOverhaulCore then
 
     VisualOverhaulCore.PATHS = {
         assets = ModPath .. "assets/",
-        lua = ModPath .. "lua/",
+        lua = ModPath .. "heist_intro/",
         locales = ModPath .. "locales/"
     }
 

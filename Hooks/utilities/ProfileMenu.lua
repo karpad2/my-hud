@@ -55,7 +55,7 @@ if RequiredScript == "lib/managers/menumanager" then
 	ProfileSwitchInitiator = ProfileSwitchInitiator or class(SkillSwitchInitiator)
 	function ProfileSwitchInitiator:modify_node(node, data)
 		node:clean_items()
-		self:create_divider(node, "title", "wolfhud_profile_switch_title_profiles", nil, tweak_data.screen_colors.text)
+		self:create_divider(node, "title", "Title:", nil, tweak_data.screen_colors.text)
 		local mpm = managers.multi_profile
 		for i = 1, mpm:profile_count() do
 			local profile = mpm:profile(i)
@@ -153,7 +153,7 @@ elseif RequiredScript == "lib/managers/menu/renderers/menunodeskillswitchgui" th
 			local profile = mpm:profile(profile_id)
 			local skill_name, perk_name = "", ""
 
-			skill_name = profile.skillset and managers.skilltree:get_skill_switch_name(profile.skillset, false) or managers.localization:to_upper_text("menu_st_locked_skill_switch")
+			skill_name = profile.skillset and managers.skilltree:get_skill_switch_name(profile.skillset, false) or "Locked"
 			if profile.perk_deck then
 				local data = tweak_data.skilltree.specializations[tonumber(profile.perk_deck)]
 				local name_id = data and data.name_id
@@ -171,11 +171,11 @@ elseif RequiredScript == "lib/managers/menu/renderers/menunodeskillswitchgui" th
 		elseif row_item.type == "divider" and row_item.name == "divider_title" then
 
 			if alive(row_item.skill_points_gui) then
-				row_item.skill_points_gui:set_text(string.format("%s-%s", managers.localization:to_upper_text("menu_st_skilltree", {}), managers.localization:to_upper_text("menu_st_skill_switch_title_name", {})))
+				row_item.skill_points_gui:set_text(string.format("%s-%s", "Skill tree","Title"))
 				row_item.skill_points_gui:show()
 			end
 			if alive(row_item.status_gui) then
-				row_item.status_gui:set_text(managers.localization:to_upper_text("menu_specialization", {}) .. ":")
+				row_item.status_gui:set_text("Perk" .. ":")
 			end
 		end
 	end

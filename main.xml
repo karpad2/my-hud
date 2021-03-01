@@ -3,11 +3,12 @@
         <class file="NepHudMenu.lua"/>
         <class file="SoraHUDChangelog.lua"/>
     </Classes>
-    <AssetUpdates id="31174" version="1.0.0" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+    <AssetUpdates id="31174" version="1.0.1" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
 
     <Hooks directory="Hooks">
+    <pre hook_id="lib/entry" script_path="Core.lua"/>
         <hook file="Setup.lua" source_file="lib/setups/setup"/>
-
+        
         <hook file="ChatManager.lua" source_file="lib/managers/chatmanager"/>
         <hook file="MissionBriefingGUI.lua" source_file="lib/managers/menu/missionbriefinggui"/>
         <hook file="CivilianDamage.lua" source_file="lib/units/civilians/civiliandamage"/>
@@ -63,7 +64,7 @@
         <hook file="utilities/DownCounter.lua" source_file="lib/network/handlers/unitnetworkhandler"/>
         <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/huskplayermovement"/>
         <hook file="utilities/DownCounter.lua" source_file="lib/units/beings/player/states/playerbleedout"/>
-
+<!--
         <hook file="utilities/heist_intro/managers/HologramManager.lua" source_file="lib/setups/setup"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/setups/setup"/>-
        <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="core/lib/setups/coresetup"/>
@@ -71,7 +72,7 @@
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/hud/hudblackscreen"/>
         <hook file="utilities/heist_intro/managers/IntroCinematicManager.lua" source_file="lib/managers/voicebriefingmanager"/>
-        <hook file="utilities/heist_intro/tweak_data/LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
+        <hook file="utilities/heist_intro/tweak_data/LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>-->
 
         <hook file="utilities/GameInfoManager.lua" source_file="lib/setups/setup"/>
         <hook file="utilities/GameInfoManager.lua" source_file="lib/utils/temporarypropertymanager"/>
@@ -152,25 +153,18 @@
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboweaponbase"/>
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/akimboshotgunbase"/>
         <hook file="utilities/BurstFire.lua" source_file="lib/units/weapons/newraycastweaponbase"/>
+        
         <hook file="utilities/LoadoutPanel.lua" source_file="lib/entry"/>
         <!--
         <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hudmanagerpd2"/>
         <hook file="utilities/DrivingHUD.lua" source_file="lib/manager/hud/huddriving"/>
         <hook file="utilities/DrivingHUD.lua" source_file="lib/states/ingamedriving"/>-->
-        <hook file="utilities/HUDList.lua" source_file="lib/manager/hudmanagerpd2"/>
-        <hook file="utilities/HUDList.lua" source_file="lib/manager/objectinteractionmanager"/>
-        <hook file="utilities/HUDList.lua" source_file="lib/manager/hud/hudassaultcorner"/>
+        
+        <hook file="utilities/HUDList.lua" source_file="lib/managers/hudmanagerpd2"/>
 
         <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/interactions/interactionext"/>
         <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/equipment/ecm_jammer/ecmjammerbase"/>
         <hook file="utilities/EquipmentTweaks.lua" source_file="lib/units/weapons/sentrygunweapon"/>
-
-        <hook file="utilities/KillCounter.lua" source_file="lib/manager/hud/hudteammate"/>
-        <hook file="utilities/KillCounter.lua" source_file="lib/manager/hudmanagerpd2"/>
-        <hook file="utilities/KillCounter.lua" source_file="lib/units/enemies/cop/copdamage"/>
-        <hook file="utilities/KillCounter.lua" source_file="lib/manager/statisticsmanager"/>
-        <hook file="utilities/KillCounter.lua" source_file="lib/units/equipment/sentry_gun/sentrygunbase"/>
-        
 
     </Hooks>
 
@@ -244,27 +238,7 @@
         <!-- Fonts -->
         <font path="fonts/font_pdth" load="true"/>
         <texture path="fonts/font_pdth" load="true"/>
-        <texture path="fonts/noto_sans" load="true"/>
-		<font path="fonts/noto_sans" load="true"/>
-		<texture path="fonts/noto_sans_jp" load="true"/>
-		<font path="fonts/noto_sans_jp" load="true"/>
-		<texture path="fonts/noto_sans_numbers" load="true"/>
-		<font path="fonts/noto_sans_numbers" load="true"/>
-
-
-
-        <!-- INTRO CINEMATIC STUFF -->
-
-		<texture path="introcinematics/textures/cs"/>
-		<texture path="introcinematics/textures/cs_top"/>
-		<texture path="introcinematics/textures/cs_mid"/>
-		<texture path="introcinematics/textures/cs_bot"/>
-		<texture path="introcinematics/textures/cs_face"/>
-        <unit_mat_seq path="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" auto_cp="false"/>
-		<unit_mat_seq path="introcinematics/units/arm_cro/vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport" auto_cp="false"/>
-		<unit_mat_seq path="introcinematics/units/arm_hcm/c4_plantable/c4_plantable"/>
-		<unit_mat_seq path="introcinematics/units/arm_hcm/bnk_prop_security_keybox/bnk_prop_security_keybox" auto_cp="false"/>
-		<unit_mat path="introcinematics/units/camera/cinematic_camera"/>
+        
 
 
         <texture path="NepgearsyHUDReborn/Menu/NepHudMenu"/>
@@ -487,5 +461,30 @@
         <texture path="NepgearsyHUDReborn/Minimap/mus_2"/>
         <texture path="NepgearsyHUDReborn/Minimap/mus_3"/>
         <texture path="NepgearsyHUDReborn/Minimap/shadow_raid_5"/>
+    </AddFiles>
+    <table name="VisualOverhaulCore">
+    <AddFiles directory="assets">
+    <texture path="fonts/noto_sans" load="true"/>
+		<font path="fonts/noto_sans" load="true"/>
+		<texture path="fonts/noto_sans_jp" load="true"/>
+		<font path="fonts/noto_sans_jp" load="true"/>
+		<texture path="fonts/noto_sans_numbers" load="true"/>
+		<font path="fonts/noto_sans_numbers" load="true"/>
+
+
+
+        <!-- INTRO CINEMATIC STUFF -->
+
+		<texture path="introcinematics/textures/cs"/>
+		<texture path="introcinematics/textures/cs_top"/>
+		<texture path="introcinematics/textures/cs_mid"/>
+		<texture path="introcinematics/textures/cs_bot"/>
+		<texture path="introcinematics/textures/cs_face"/>
+        <unit_mat_seq path="introcinematics/units/election_day_1/gen_vehicle_cocaineboat/gen_vehicle_cocaineboat" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/arm_cro/vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport" auto_cp="false"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/c4_plantable/c4_plantable"/>
+		<unit_mat_seq path="introcinematics/units/arm_hcm/bnk_prop_security_keybox/bnk_prop_security_keybox" auto_cp="false"/>
+		<unit_mat path="introcinematics/units/camera/cinematic_camera"/>
+    </table>
     </AddFiles>
 </mod>

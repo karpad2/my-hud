@@ -18,8 +18,8 @@ if not VisualOverhaulCore then
 
     VisualOverhaulCore.HOOKS = {
         ["lib/setups/setup"] = {
-            "managers/HologramManager.lua",
-            "managers/IntroCinematicManager.lua",
+            "./managers/HologramManager.lua",
+            "./managers/IntroCinematicManager.lua",
         },
         ["lib/states/ingamewaitingforplayers"] = "managers/IntroCinematicManager.lua",
         ["lib/managers/hud/hudmissionbriefing"] = "managers/IntroCinematicManager.lua",

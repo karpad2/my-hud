@@ -1,5 +1,5 @@
-_include("managers/holograms/IntroCinematicDifficulty.lua")
-_include("utils/Easing.lua")
+_include("Hooks/utilities/heist_intro/managers/holograms/IntroCinematicDifficulty.lua")
+_include("Hooks/utilities/heist_intro/utils/Easing.lua")
 
 function get_level_data(id)
     local data = tweak_data.levels[managers.job:current_level_id()]

@@ -95,7 +95,7 @@ NepHook:Post(HUDAssaultCorner, "init", function(self)
         name = "trackerPanel",
         w = 356,
         h = 40,
-        visible = NepgearsyHUDReborn.Options:GetValue("EnableTrackers") and not self:is_safehouse()
+        visible =  true and not self:is_safehouse() --NepgearsyHUDReborn.Options:GetValue("EnableTrackers")
     })
 
     trackerPanel:set_right(assault_panel_v2:right())

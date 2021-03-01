@@ -1,4 +1,4 @@
---[[
+
 function LobbyCharacterData:init(panel, peer)
 	self._parent = panel
 	self._peer = peer
@@ -175,4 +175,3 @@ function LobbyCharacterData:sort_text_and_reposition()
     self._player_avatar:set_left(self._name_text:left())
 	self:update_position()
 end
---]]

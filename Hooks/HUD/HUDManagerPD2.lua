@@ -94,7 +94,7 @@ function HUDManager:_create_teammates_panel(hud)
 	end
 end
 
---[[
+
 function HUDManager:_add_name_label(data)
 	local hud = managers.hud:script(PlayerBase.PLAYER_INFO_HUD_FULLSCREEN_PD2)
 	local last_id = self._hud.name_labels[#self._hud.name_labels] and self._hud.name_labels[#self._hud.name_labels].id or 0
@@ -232,7 +232,7 @@ function HUDManager:_add_name_label(data)
 
 	return id
 end
---]]
+
 
 NepHook:Post(HUDManager, "align_teammate_name_label", function(self, panel, interact)
 	local avatar = panel:child("avatar")
@@ -379,8 +379,8 @@ function HUDManager:_create_stamina_hud(hud)
 end
 
 function HUDManager:_create_money_hud(hud)
-	hud = hud or managers.hud:script(PlayerBase.PLAYER_INFO_HUD_PD2)
-	self._hud_money = HUDMoney:new(hud)
+	--hud = hud or managers.hud:script(PlayerBase.PLAYER_INFO_HUD_PD2)
+	--self._hud_money = HUDMoney:new(hud)
 end
 
 core:module("CoreGuiDataManager")

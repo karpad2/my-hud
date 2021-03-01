@@ -3,7 +3,7 @@
 	"description": "My HUD.. that's all",
 	"author": "karpad2",
 	"contact" : "https://github.com/karpad2/my-hud",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"blt_version": 2,
 	"image": "Assets/NepgearsyHUDReborn/ModIcon.png"
 }

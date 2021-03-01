@@ -1,9 +1,17 @@
 {
-	"name": "karpad2 hud",
+	"name": "karpad2-hud",
 	"description": "My HUD.. that's all",
 	"author": "karpad2",
 	"contact" : "https://github.com/karpad2/my-hud",
 	"version": "1.0.1",
 	"blt_version": 2,
 	"image": "Assets/NepgearsyHUDReborn/ModIcon.png"
+	"updates" : [
+    		{
+    			"identifier" : "karpad2-hud",
+    			"host": {
+    				"meta": "https://github.com/karpad2/raw/my-hud/meta.json"
+    			}
+    		}
+    	],
 }

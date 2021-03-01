@@ -690,7 +690,7 @@ if not _G.WolfHUDHUDList then
 
 	function WolfHUDHUDList:Reset()
 		local default_lang = "english"
-		for _, filename in pairs(file.GetFiles(self.mod_path .. "/Localization/")) do
+		for _, filename in pairs(file.GetFiles(self.mod_path .. "Localization/")) do
 			local str = filename:match('^(.*).json$')
 			if str and Idstring(str) and Idstring(str):key() == SystemInfo:language():key() then
 				default_lang = str
@@ -1155,7 +1155,7 @@ if not _G.WolfHUDHUDList then
 					end
 				end
 			end
-
+--
 			create_menu({menu_options}, BLT and BLT.Mods.Constants:LuaModOptionsMenuID() or "blt_options")
 		end)
 

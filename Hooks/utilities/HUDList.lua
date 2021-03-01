@@ -5724,7 +5724,7 @@ if string.lower(RequiredScript) == "lib/managers/hudmanagerpd2" then
 
 		self._title = self._panel:text({
 			name = "title",
-			text = icon.localized and managers.localization:text(icon.title) or icon.title or "",
+			text =  "",--icon.localized and managers.localization:text(icon.title) or icon.title or
 			align = "center",
 			vertical = "top",
 			w = self._panel:w(),
